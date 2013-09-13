@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>欢迎使用酒店后勤管理系统，请登录</title>
+<link href="assets/css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="assets/js/login.js"></script>
+</head>
+<body>
+<h1 class="noPrint"></h1>
+<div id="loginBox" class="noShow">
+    <div id="Box_left">
+        <div id="left_top">欢迎登录后台</div>
+        <div id="left_content">
+    		<div class="left_passage">
+            	<label for="user">用户名</label>
+                <input type="text" name="user" id="user" /></div>
+            <div class="left_passage">
+            	<label for="password">密码</label>
+                <input type="password" name="password" id="password" /></div>
+            <div id="message"></div>
+        </div>
+    </div>
+    <div id="Box_right">
+    	<div id="right_content">酒店后勤管理系统</div>
+    	<input id="loginButton" type="button" value="登录" onclick="checkUser()" />
+    </div>
+</div>
+</body>
+</html>

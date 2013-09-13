@@ -1,0 +1,159 @@
+@import url("common.inc.css");
+@import url("formwork.inc.css");
+
+td a{
+	color:#006A92;
+}
+
+.modal-overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.5);
+	z-index:10000;
+}
+
+.modal-window {
+	position:absolute;
+	top:140px;
+	left:50%;
+	width:600px;
+	height:auto;
+	margin-left:-300px;
+	padding:20px;
+	border:2px solid #000;
+	background-color:#FFF;
+	
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	box-shadow:0 0 14px #123;
+	-moz-box-shadow:0 0 14px #123;
+	-webkit-box-shadow:0 0 14px #123;
+	z-index:10001;
+}
+
+.modal-close-btn {
+	position:absolute;
+	top:0;
+	right:4px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	color:black;
+	font-size:16px;
+}
+
+.modal-close-btn:before {
+	position:relative;
+	top:-1px;
+	content:"Close";
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+/*.edit-box {
+	width:800px;
+	margin:20px auto;
+	padding:20px;
+	background:#F5F5F5;
+	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}*/
+
+fieldset {
+	padding:8px;
+	border:1px solid #E4E4E4;
+	color:#006A92;
+	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+form a {
+	color:#123;
+}
+
+legend {
+	font-size:20px;
+	font-weight:bold;
+}
+
+input[type=text], input[type=password], label {
+	display:block;
+	width:70%;
+	margin:4px 0 2px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+textarea {
+	width:90%;
+	height:200px;
+}
+
+input[type=text], input[type=password], textarea {
+	padding:2px;
+	margin:0 0 4px;
+	border:1px solid #123;
+	font-size:12px;
+	font-family:微软雅黑, 宋体;
+	
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	box-shadow:inset 1px 2px 4px #789;
+    -moz-box-shadow:inset 1px 2px 4px #789;
+	-webkit-box-shadow:inset 1px 2px 4px #789;
+}
+
+input[type=submit] {
+	margin:4px 0 4px 180px;
+    padding:5px;
+	background-color:#60BAFF;
+	border: 1px solid #257C9D;
+/*	font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow:0px 0px 1px #B1E4F8;
+	color:black;
+	cursor:pointer;
+    
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow:inset -2px -1px 3px #6EA1B5,
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+    -moz-box-shadow: inset -2px -1px 3px #6EA1B5
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+	-webkit-box-shadow:inset -2px -1px 3px #6EA1B5,
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+}
+
+select {
+	width:20%;
+	font-size:12px;
+}
+
+.modal-form {
+	margin-bottom:20px;
+}
+
+#special-btn{
+	margin-top:20px;
+}
+
+.big-label {
+	font-size:16px;	
+}

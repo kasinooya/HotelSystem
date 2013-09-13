@@ -1,0 +1,92 @@
+@import url("common.inc.css");
+@import url("formwork.inc.css");
+
+.edit-box {
+	width:800px;
+	margin:20px auto;
+	padding:20px;
+	background:#F5F5F5;
+	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+fieldset {
+	padding:8px;
+	border:1px solid #E4E4E4;
+	color:#006A92;
+	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+form a {
+	color:#123;
+}
+
+legend {
+	font-size:24px;
+	font-weight:bold;
+}
+
+input[type=text], input[type=password], label {
+	display:block;
+	width:70%;
+	margin:8px 0 4px;
+	font-weight:bold;
+}
+
+textarea {
+	width:90%;
+	height:200px;
+}
+
+input[type=text], input[type=password], textarea {
+	padding:4px;
+	margin:0 0 4px;
+	border:1px solid #123;
+	font-size:14px;
+	font-family:微软雅黑, 宋体;
+	
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	box-shadow:inset 1px 2px 4px #789;
+    -moz-box-shadow:inset 1px 2px 4px #789;
+	-webkit-box-shadow:inset 1px 2px 4px #789;
+}
+
+input[type=submit] {
+	margin:20px 0;
+    padding:5px;
+	background-color:#60BAFF;
+	border: 1px solid #257C9D;
+/*	font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow:0px 0px 1px #B1E4F8;
+	color:black;
+	cursor:pointer;
+    
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow:inset -2px -1px 3px #6EA1B5,
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+    -moz-box-shadow: inset -2px -1px 3px #6EA1B5
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+	-webkit-box-shadow:inset -2px -1px 3px #6EA1B5,
+	inset 1px 1px 3px #97DDF8,
+	1px 2px 6px #6EA1B5;
+}
+
+select {
+	width:20%;
+	font-size:14px;
+}

@@ -1,0 +1,69 @@
+body {
+	background:#73CFF1 url(../img/formwork_bg.jpg) center top no-repeat;
+	font-family:微软雅黑, 宋体;
+	color:#FFF;
+}
+#bg_head {
+	min-width:960px;
+	height:115px;
+	background:#0090FF;
+	border-bottom:2px solid #FFF;
+	opacity:.9;
+}
+#head, #body {
+	width:960px;
+	margin:0 auto;
+}
+#body {
+	margin-bottom:30px;
+}
+#head #pageName {
+	height:60px;
+	margin:22px 0 0 22px;
+	font-size:45px;
+	float:left;
+	_display:inline;
+}
+#head #btnBlock {
+	margin-top:80px;
+	float:right;
+}
+.HDbtn{
+	height:35px;
+	min-width:70px;
+	margin-right:15px;
+	padding:0 5px;
+	background:#60BAFF;
+	color:#FFF;
+	font-size:14px;
+	line-height:28px;
+	text-align:center;
+	text-decoration:none;
+	float:left;
+	
+	border-top-left-radius::3px;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-top-right-radius:3px;
+}
+.HDbtn:hover{
+	background:#1084B2;
+}
+
+#data_none {
+	width:600px;
+	height:60px;
+	border:solid 2px #FDECC6;
+	background:#60BAFF;
+	margin:30px auto;
+	font-size:16px;
+	font-weight:bold;
+	line-height:60px;
+	text-align:center;
+	
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}

@@ -1,0 +1,7 @@
+@import url("common.inc.css");
+@import url("formwork.inc.css");
+p {
+	margin-top:150px;
+	font-size:48px;
+	text-align:center;
+}

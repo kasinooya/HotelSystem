@@ -1,0 +1,84 @@
+@import url("common.inc.css");
+body {
+	background:#73CFF1 url(../img/formwork_bg.jpg) center top no-repeat;
+	font:12px 微软雅黑;
+	color:#333;
+}
+#loginBox {
+	height:300px;
+	width:500px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0 0 20px #3C749F;
+	-webkit-box-shadow: 0 0 20px #3C749F;
+	-moz-box-shadow: 0 0 20px #3C749F;
+}
+#Box_left {
+	height:300px;
+	width:300px;
+	float:left;
+	background-color:#FFF;
+	border-radius:10px 0 0 10px;
+	-webkit-border-radius:10px 0 0 10px;
+	-moz-border-radius:10px 0 0 10px;
+}
+#left_top {
+	height:70px;
+	padding:15px 0 0 20px;
+	font-size:30px;
+	line-height:70px;
+}
+#left_content {
+	height:175px;
+	padding:0 40px 15px;
+}
+.left_passage {
+	height:30px;
+	background-color:#ACDBFF;
+	margin-top: 25px;
+	padding: 8px 10px;
+	font:bold 12px/30px 微软雅黑;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.left_passage label {
+	width:40px;
+	margin-right:10px;
+	float:left;
+}
+.left_passage input {
+	width:145px;
+	background-color:#ACDBFF;
+	border:0px;
+	margin:6px 0;
+	float:left;
+}
+#Box_right {
+	height:300px;
+	width:200px;
+	float:left;
+	background-color:#60BAFF;
+	border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-moz-border-radius:0 10px 10px 0;
+}
+#right_content {
+	height:170px;
+	padding-top:25px;
+	font-size:18px;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	color:#333;
+}
+#loginButton {
+	height:40px;
+	width:80px;
+	margin-left:60px;
+}
+#message {
+	margin:20px 0 0 10px;
+	color:#F00;
+}
